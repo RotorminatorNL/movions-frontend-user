@@ -52,6 +52,7 @@
 
 .card-element img {
     max-height: 500px;
+    max-width: 100%;
 }
 
 .card-element p {
@@ -62,6 +63,6 @@
 @media screen and (min-width: 1024px) {
     .card-element {
         margin: 10px;
-        width: 43.75%;
+        width: 27%;
     }
 }
