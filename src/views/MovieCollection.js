@@ -22,23 +22,7 @@ export default class MovieCollection extends Component {
                 {this
                     .state
                     .movies
-                    .map(movie => (<Movie key={movie.id} id={"card"+1} data={movie}/>))}
-                {this
-                    .state
-                    .movies
-                    .map(movie => (<Movie key={movie.id} id={"card"+2} data={movie}/>))}
-                {this
-                    .state
-                    .movies
-                    .map(movie => (<Movie key={movie.id} id={"card"+3} data={movie}/>))}
-                {this
-                    .state
-                    .movies
-                    .map(movie => (<Movie key={movie.id} id={"card"+4} data={movie}/>))}
-                {this
-                    .state
-                    .movies
-                    .map(movie => (<Movie key={movie.id} id={"card"+5} data={movie}/>))}
+                    .map(movie => (<Movie key={movie.id} id={`card${movie.id}`} data={movie}/>))}
             </div>
         );
     }
